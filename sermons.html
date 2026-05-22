@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sermons & Media | Turnaround Ministries</title>
+    <meta name="description" content="Watch or listen to powerful sermons from Turnaround Ministries. Filter by Sunday Service, Midweek, Special Events.">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="site-header" id="siteHeader">
+        <div class="container header-container">
+            <div class="logo"><a href="index.html"><span class="logo-accent">Turnaround</span> Ministries</a></div>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu"><i class="fas fa-bars"></i></button>
+            <nav class="main-nav" id="mainNav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="ministries.html">Ministries</a></li>
+                    <li><a href="sermons.html">Sermons</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="donate.html" class="donate-btn-nav"><i class="fas fa-heart"></i> Donate</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="page-header-bg" style="background: linear-gradient(135deg, #0A2342, #0B2C4A);"><div class="container"><h1>Sermons & Media</h1><p>Messages of turnaround</p></div></section>
+        <section class="section"><div class="container"><div class="filter-tabs fade-up"><button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="sunday">Sunday Service</button><button class="filter-btn" data-filter="midweek">Midweek</button><button class="filter-btn" data-filter="special">Special Events</button></div>
+        <div class="sermons-grid" id="sermonsGrid">
+            <div class="sermon-card" data-category="sunday"><div class="sermon-embed"><iframe src="https://www.youtube.com/embed/5qap5aO4i9A?si=placeholder" title="Sermon placeholder"></iframe></div><h3>Breakthrough Faith</h3><p class="sermon-meta"><i class="fas fa-user"></i> Pastor Michael | <i class="fas fa-calendar"></i> Sept 14, 2025</p><span class="sermon-cat">Sunday Service</span></div>
+            <div class="sermon-card" data-category="midweek"><div class="sermon-embed"><iframe src="https://www.youtube.com/embed/abcd123?si=midweek" title="Midweek prayer"></iframe></div><h3>Power of Persistent Prayer</h3><p class="sermon-meta"><i class="fas fa-user"></i> Pastor Sarah | <i class="fas fa-calendar"></i> Sept 10, 2025</p><span class="sermon-cat">Midweek</span></div>
+            <div class="sermon-card" data-category="special"><div class="sermon-embed"><iframe src="https://www.youtube.com/embed/xyzSpecial" title="Conference"></iframe></div><h3>Revival Night 2025</h3><p class="sermon-meta"><i class="fas fa-user"></i> Pastor David | <i class="fas fa-calendar"></i> Aug 25, 2025</p><span class="sermon-cat">Special Events</span></div>
+            <div class="sermon-card" data-category="sunday"><div class="sermon-embed"><iframe src="https://www.youtube.com/embed/sunday2"></iframe></div><h3>New Season, New Mind</h3><p class="sermon-meta"><i class="fas fa-user"></i> Pastor Michael | <i class="fas fa-calendar"></i> Sept 21, 2025</p><span class="sermon-cat">Sunday Service</span></div>
+        </div></div></section>
+    </main>
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col"><h4>Turnaround Ministries</h4><p>A community of hope, healing and restoration.</p><div class="social-icons"><a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a><a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a><a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a></div></div>
+            <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="about.html">About Us</a></li><li><a href="sermons.html">Sermons</a></li><li><a href="events.html">Events</a></li><li><a href="donate.html">Give</a></li></ul></div>
+            <div class="footer-col"><h4>Service Times</h4><p>Sunday: 9:00 AM & 11:00 AM<br>Wednesday: 7:00 PM (Bible Study)<br>Friday: 7:00 PM (Prayer Meeting)</p><address>123 Hope Avenue, Suite 100<br>Renewal City, RC 90210</address></div>
+            <div class="footer-col"><h4>Newsletter</h4><p>Stay updated with encouragement & events.</p><form id="newsletterForm" class="newsletter-form"><input type="email" placeholder="Your email address" required><button type="submit"><i class="fas fa-paper-plane"></i> Subscribe</button></form></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2025 Turnaround Ministries. All rights reserved. | <a href="#">Privacy Policy</a></p></div>
+    </footer>
+    <script src="/js/main.js"></script>
+</body>
+</html>
